@@ -1,16 +1,234 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Graynix</title>
+		<meta
+			property="og:title"
+			content="Graynix | Coding Chaos & Clean Code"
+		/>
+		<meta
+			property="og:description"
+			content="Code, creativity, and clean solutions. Welcome to the world of Graynix!"
+		/>
+		<meta property="og:image" content="images/favicon.png" />
+		<meta
+			name="keywords"
+			content="developer, portfolio, web developer, HTML, CSS, JavaScript, Python, web applications, bots, Git, Figma, clean code, programming, software projects, automation, Discord bots, tech projects"
+		/>
 		<link rel="stylesheet" href="styles.css" />
-		<link rel="icon" href="favicon.png" type="image/png" />
+		<link rel="icon" href="images/favicon.png" type="image/png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
 	</head>
 	<body>
-		<div class="container">
-			<h1>Coming Soon</h1>
-			<p>My portfolio will be live soon.</p>
-		</div>
+		<nav>
+			<div class="hamburger" id="hamburger">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+			<ul id="nav-links">
+				<li><a href="#hero">Start</a></li>
+				<li><a href="#aboutme">About me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+			</ul>
+		</nav>
+
+		<section class="hero" id="hero">
+			<h1>Hi, I'm Graynix</h1>
+			<p>Passionate about code and clean solutions.</p>
+		</section>
+
+		<section class="aboutme" id="aboutme">
+			<h2>Just a bit about me</h2>
+			<p>
+				I'm a young programmer from Poland (Polska Gurom!) with a
+				passion for clean and efficient code and continuous learning. I
+				started coding a few years ago and have been exploring different
+				technologies ever since — mostly by building, breaking, and
+				rebuilding things. I enjoy solving problems, writing code that
+				makes sense, and always striving for improvement.
+			</p>
+			<div class="social">
+				<a
+					href="https://github.com/graynixx"
+					target="_blank"
+					rel="noopener noreferrer"
+					title="GitHub"
+				>
+					<i class="fa-brands fa-github"></i>
+				</a>
+
+				<a
+					href="https://discord.com/users/1022881937980924087"
+					target="_blank"
+					rel="noopener noreferrer"
+					title="Discord"
+				>
+					<i class="fa-brands fa-discord"></i>
+				</a>
+
+				<a
+					href="https://x.com/graynix_"
+					target="_blank"
+					rel="noopener noreferrer"
+					title="X (There is nothing there at the moment)"
+				>
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+
+				<a
+					href="mailto:graynixx@proton.me"
+					rel="noopener noreferrer"
+					title="Mail (graynixx@proton.me)"
+				>
+					<i class="fa-solid fa-envelope"></i>
+				</a>
+			</div>
+		</section>
+
+		<section class="skills" id="skills">
+			<h2>Skills and Technologies I've Worked With</h2>
+			<div class="skills-container">
+				<div class="skill-item html">
+					<i class="fa-brands fa-html5"></i>
+					<h3>HTML</h3>
+				</div>
+				<div class="skill-item css">
+					<i class="fa-brands fa-css3-alt"></i>
+					<h3>CSS</h3>
+				</div>
+				<div class="skill-item js">
+					<i class="fa-brands fa-square-js"></i>
+					<h3>JavaScript</h3>
+				</div>
+				<div class="skill-item py">
+					<i class="fa-brands fa-python"></i>
+					<h3>Python</h3>
+				</div>
+				<div class="skill-item git">
+					<i class="fa-brands fa-square-git"></i>
+					<h3>Git</h3>
+				</div>
+				<div class="skill-item figma">
+					<i class="fa-brands fa-figma"></i>
+					<h3>Figma</h3>
+				</div>
+				<div class="skill-item management">
+					<i class="fas fa-briefcase"></i>
+					<h3>Management</h3>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects" id="projects">
+			<h2>Projects</h2>
+			<div class="projects-container">
+				<div class="project-item">
+					<img
+						src="images/projects-images/flinzo-bot.png"
+						alt="Flinzo Bot image"
+					/>
+					<h3>Flinzo Bot</h3>
+					<p>
+						FlinzoBot is an open source bot on Telegram offering a
+						wide range of tools for websites, discord, math and
+						more. Our application has among others webhook sender,
+						domain lookup, ip info, rng, discord userinfo, discord
+						serverinfo and many more essential tools!
+					</p>
+					<p>Technologies Used: Python</p>
+					<div class="projects-links">
+						<a
+							href="https://github.com/FlinzoBot/FlinzoBot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<a
+							href="https://t.me/FlinzoBot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-telegram"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="project-item">
+					<img
+						src="images/projects-images/swizzy-bot.png"
+						alt="Swizzy Bot image"
+					/>
+					<h3>Swizzy Bot</h3>
+					<p>
+						SwizzyBot is an all-in-one bot for Discord offering a
+						wide range of tools for server customization,
+						moderation, fun and more. Our application includes
+						features like server appearance settings, auto
+						moderation, role management, fun commands, utility
+						tools, and much more — covering all the essentials to
+						keep your Discord server running smoothly!
+					</p>
+					<p>Technologies Used: Python</p>
+					<div class="projects-links">
+						<a
+							href="https://github.com/SwizzyTeam"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<a
+							href="https://dsc.gg/swizzybio"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-discord"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="project-item">
+					<img
+						src="images/projects-images/thallium-studio.png"
+						alt="Thallium Studio image"
+					/>
+					<h3>Thallium Studio</h3>
+					<p>
+						Thallium is a programming studio where I help create and
+						manage all sorts of chaotic yet somehow functional
+						projects. From bots to tools no one knew they needed, we
+						keep things interesting—and occasionally even stable.
+					</p>
+					<p>Technologies Used: Many</p>
+					<div class="projects-links">
+						<a
+							href="https://github.com/ThalliumStudio"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<a
+							href="https://discord.gg/9nccd3R5B7"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="fa-brands fa-discord"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="script.js"></script>
 	</body>
 </html>
