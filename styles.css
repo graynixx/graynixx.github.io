@@ -269,6 +269,13 @@ nav ul li a:hover {
 	color: rgb(193, 193, 193);
 }
 
+footer {
+	text-align: center;
+	color: #888;
+	font-size: 0.9em;
+	padding: 20px 10px;
+}
+
 .error-404 {
 	display: flex;
 	flex-direction: column;
@@ -314,6 +321,7 @@ nav ul li a:hover {
 	transform: scale(1.05);
 	box-shadow: 0 0 25px rgba(255, 107, 107, 0.2);
 }
+
 @keyframes slideInFromBottom {
 	from {
 		transform: translateY(100%);
