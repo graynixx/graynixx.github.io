@@ -1,2 +1,3 @@
 # graynixx.github.io
-CNAME redirect to graynix.vercel.app
+
+Redirects [graynixx.github.io](https://graynixx.github.io) to [graynix.vercel.app](https://graynix.vercel.app) via `CNAME`.
